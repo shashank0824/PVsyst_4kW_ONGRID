@@ -1,0 +1,47 @@
+﻿PVObject_=pvProject
+  Comment=On_Grid_home
+  Version=7.3.1
+  Flags=$00080010
+MeteoFileName=Home_MN81_SYN.MET
+PVObject_SitePrj=pvSite
+  Comment=Home;India;Asia;
+  Flags=$0006283F
+  NomF=Home_MN81.SIT
+  Site=Home
+  Country=India
+  Region=Asia
+  Source=Meteonorm 8.1 (1996-2015), Sat=100%
+  SourceType=Meteonorm81DLL
+  Latitude=26.7589
+  Longitude=83.4045
+  Altitude=78
+  TimeZone=5.50
+  HLeg=True
+  UnitsDisp=kWh_m2_m
+  Albedo=0.20
+  DateBeg=01/01/80 00:00
+  DateEnd=31/12/80 23:00
+  GlobalH=76.6,107.6,156.7,163.4,176.5,147.1,130.8,136.2,118.0,117.8,96.5,85.0,1512.3,
+  DiffuseH=52.3,60.1,76.1,86.4,102.1,96.5,92.0,89.8,73.3,70.8,57.2,50.8,907.3,
+  TAmb=14.43,19.20,24.80,29.56,31.30,30.82,29.61,29.41,28.43,26.24,21.01,16.40,25.12,
+  WindVel=0.49,0.81,1.00,1.19,1.22,1.09,0.89,0.90,0.79,0.38,0.21,0.29,0.77,
+  Linke=6.002,5.619,5.883,7.000,7.000,7.000,6.729,5.700,5.522,6.916,7.000,7.000,6.897,
+  RelHum=0.718,0.635,0.503,0.431,0.523,0.666,0.785,0.800,0.797,0.725,0.704,0.714,0.667,
+  Extraterr=200.6,216.7,282.7,311.2,343.4,339.3,346.8,330.1,288.2,254.7,204.4,188.6,3306.8,
+  YrToYrVar=4.989
+End of PVObject pvSite
+Albedo=0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,0.200,
+DesignTempMin=-10
+TempOper=50
+TempOperMin=20
+TempOperMax=60
+LimOverloadLoss=3.00
+DiscrOrientDiff=1.00
+SpreadMaxDiff=10.00
+MaxSystem_ShdRatio=2.50
+RegionMeteo=1
+CorrAlttemp=-0.0055
+SiteMeteoMaxDistForList=10
+TranspositionAlgorithm=CircSolSeparate
+ACLossesRef=STC
+End of PVObject pvProject
